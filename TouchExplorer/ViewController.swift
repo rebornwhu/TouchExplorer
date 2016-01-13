@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     func updateLabelsFromTouches(touches: Set<UITouch>) {
         let touch = touches.first
         let numTaps = touch?.tapCount
-        let tapsMessage = "\(numTaps) taps detected"
+        let tapsMessage = "\(numTaps!) taps detected"
         tapsLabel.text = tapsMessage
         
         let numTouches = touches.count
